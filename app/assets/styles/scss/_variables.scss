@@ -1,0 +1,34 @@
+/****    colors    ****/
+$white: #fff;
+$black: #515151;
+$black-light: #666;
+$gray: #898989;
+$orange: #e26228;
+$orange-light: #e88153;
+
+/****    font    ****/
+$font-family-base: 'Open Sans', sans-serif;
+$font-color-base: $black-light;
+$font-size-base: 14px;
+
+/****    headings    ****/
+$heading-family-base: $font-family-base;
+$heading-color-base: $black;
+$heading-weight-base: 700;
+
+/****    links    ****/
+$link-font-base: $font-family-base;
+$link-color-base: $black;
+$link-hover-color-base: $orange;
+
+/****    elements styles    ****/
+//body
+$body-background: $white;
+
+//nav
+$nav-background: $white;
+$nav-link-color: $gray;
+$nav-link-hover-color: $orange;
+$nav-link-font: $font-family-base;
+$nav-link-weight: 700;
+

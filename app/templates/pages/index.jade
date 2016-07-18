@@ -1,0 +1,304 @@
+extends ../includes/layout.jade
+block title
+    title Frexy
+block page
+    //page header
+    header#top.page-header
+        //navigation
+        nav.page-nav
+            .container
+                .nav-container.clearfix
+                    .page-logo.small
+                        img(src='img/design/logo.png' alt='Frexy')
+                        h1 Frexy
+                    .nav
+                        ul.nav-list
+                            li
+                                a.active(href='#') Home
+                            li
+                                a(href='#') About us
+                            li
+                                a(href='#') Pages!
+                            li
+                                a(href='#') Shortcode
+                            li
+                                a(href='#') Shop
+                            li
+                                a(href='#') Contact us
+
+                        ul.sub-nav
+                            li
+                                a(href='#')
+                                    i.icon.search
+                            li
+                                a(href='#')
+                                    i.icon.cart
+        //page heading
+        .page-heading
+            .container
+                h1 Our portfolio
+                p Check our portfolio 3 columns layout sample
+
+
+
+    //page content
+    .page-content
+        //breadcrumbs
+        .breadcrumbs
+            .container
+                ul.breadcrumbs-list
+                    li
+                        a(href='#') Home
+                    li
+                        a(href='#') Portfolio
+                    li 3 columns
+        //main content
+        .container
+            // sidebar
+            aside.sidebar
+                // blog category
+                section
+                    h1 Blog Categories
+                    ul.category
+                        li
+                            a(href='') Web Design
+                                span 12
+                        li
+                            a(href='') Smart Phone
+                                span 23
+                        li
+                            a(href='') Latop
+                                span 11
+                        li
+                            a(href='') Apple Store
+                                span 19
+                        li
+                            a(href='') Wordpress Theme
+                                span 24
+                        li
+                            a(href='') Web Design
+                                span 34
+                        li
+                            a(href='') Sport
+                                span 21
+                        li
+                            a(href='') Fashion
+                                span 34
+                // popular posts
+                section
+                    h1 Popular postes
+                    ul.posts
+                        li
+                            a(href='#').
+                                #[img(src='img/content/post-img.jpg' alt='image')]
+                                Semper at egestas sed, elementum in justo
+                                #[span.post-date 10, January, 2014]
+                        li
+                            a(href='#').
+                                #[img(src='img/content/post-img.jpg' alt='image')]
+                                Vel eleifend id ullamcorper eu velit
+                                #[span.post-date 14, January, 2014]
+                        li
+                            a(href='#').
+                                #[img(src='img/content/post-img.jpg' alt='image')]
+                                Proin urna enim, semper at egestas
+                                #[span.post-date 10, January, 2014]
+                        li
+                            a(href='#').
+                                #[img(src='img/content/post-img.jpg' alt='image')]
+                                Fusce vitae dui sit amet lacus rutrum convallis
+                                #[span.post-date 10, January, 2014]
+                        li
+                            a(href='#').
+                                #[img(src='img/content/post-img.jpg' alt='image')]
+                                Vivamus sit amet lectus venenatis
+                                #[span.post-date 10, January, 2014]
+                // Tags cloud
+                section
+                    h1 Tags cloud
+                    ul.tags
+                        li
+                            a(href='#') Dress
+                        li
+                            a(href='#') Mini
+                        li
+                            a(href='#') Skate animal
+                        li
+                            a(href='#') Lorem ipsum
+                        li
+                            a(href='#') literature
+                        li
+                            a(href='#') Baroque
+                        li
+                            a(href='#') Dress
+                        li
+                            a(href='#') Mini
+                        li
+                            a(href='#') Skate animal
+                        li
+                            a(href='#') Lorem ipsum
+                        li
+                            a(href='#') literature
+                        li
+                            a(href='#') Baroque
+
+            //content
+            .content
+                //gallery
+                .gallery
+                    //gallery filter
+                    .gallery-filter
+                        ul.clearfix
+                            li
+                                a.active(href='#') All
+                            li
+                                a(href='#') 3D Graphic
+                            li
+                                a(href='#') Illustrations
+                            li
+                                a(href='#') Web Design
+                            li
+                                a(href='#') Mobile Design
+                            li
+                                a(href='#') Branding Design
+                    //gallery content
+                    .gallery-content
+                        ul.clearfix
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-1.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                                    //.bg-mask
+
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-2.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-3.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-4.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-5.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-6.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-7.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-8.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-9.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-10.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-11.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                            li
+                                figure
+                                    img(src='img/content/portfolio-work-12.jpg' alt='image')
+                                    .links
+                                        a.full-size(href='#')
+                                        a.share(href='#')
+                                    .bg-mask
+                                    figcaption
+                                        h1 Lorem ipsum dolor sit amet
+                                        p Animation, Game Design
+                    //gallery link load mores
+                    .line
+                        a(href='#') Load more
+
+
+
+
+
+
+
+
+
+
+
+
+
